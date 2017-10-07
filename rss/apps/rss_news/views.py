@@ -10,7 +10,7 @@ def index(request):
         'value': 'Hello Python',
         'random': str(number)
     }
-    return render(request, 'index.html', context)
+    return render(request, 'indexRandom.html', context)
 
 
 def indexAnother(request):
@@ -19,5 +19,5 @@ def indexAnother(request):
         'value': 'Hello Python',
         'random': str(number)
     }
-    return render(request, 'home.html', context)
+    return render(request, 'index.html', context)
     # return render(request, 'MyBootstrap.html', context)
